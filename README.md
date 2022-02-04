@@ -1,8 +1,5 @@
 # Forum web3 using nextjs, etherjs, tailwindCss, and supabase
 
-## Screenshot
-
-
 ## Getting Started
 
 First, run the development server:
