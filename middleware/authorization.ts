@@ -12,7 +12,7 @@ const authorization = (req: any, res: any) => {
     console.log("auth", authToken);
     return jwt.verify(
       authToken,
-      process.env.SUPABASE_JWT_SECRET || "39771682-be8b-410e-a18d-4a4a4454a652",
+      process.env.SUPABASE_JWT_SECRET || "supabase_jwt_secret",
       function (err: any, decoded: any) {
         
         if (err) return res.status(401).end();

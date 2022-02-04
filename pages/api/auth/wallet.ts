@@ -26,7 +26,7 @@ export default async function walletApi(req: any, res: any) {
         },
         role: "authenticated",
       },
-      process.env.SUPABASE_JWT_SECRET || "39771682-be8b-410e-a18d-4a4a4454a652"
+      process.env.SUPABASE_JWT_SECRET || "supabase_jwt_secret"
     );
     res.setHeader(
       "Set-Cookie",
