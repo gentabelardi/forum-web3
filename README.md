@@ -1,8 +1,7 @@
 # Forum web3 using nextjs, etherjs, tailwindCss, and supabase
 
 ## Screenshot
-
-![Uploading home.png…]()
+ file:///home/caramel/Desktop/projects/forum-web3/public/assets/background/home.jpg
 
 ## Getting Started
 
